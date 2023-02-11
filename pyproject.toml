@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "improcv"
+version = "0.1.0"
+description = ""
+authors = ["Aditya Gudimella <aditya.gudimella@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+docbook = { git = "git@github.com:AdityaGudimella/docbook.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
