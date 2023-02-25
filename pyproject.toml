@@ -6,8 +6,14 @@ authors = ["Aditya Gudimella <aditya.gudimella@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-docbook = { git = "git@github.com:AdityaGudimella/docbook.git" }
+python = ">=3.10,<3.11"
+opencv-python-headless = "^4.7.0.68"
+pillow = "^9.4.0"
+torch = "1.13.1"
+torchvision = "0.14.1"
+pytest = "^7.2.1"
+plotly = "^5.13.0"
+scikit-image = "^0.19.3"
 
 
 [build-system]
